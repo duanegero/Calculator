@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CALCULATOR</title>
+    <meta name="keywords" content="calculator">
+    <meta name="description" content="CALCULATOR">
+    <meta name="author" content="Duane Gero">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+   <h1 class="page-title">CALCULATOR</h1>
+   <div class="calculator-container">
+        <label class="value-one-label" for="valueOne">First Value:</label><br>
+        <input class="value-one-input" type="number" id="valueOne">
+        <br>
+        <label class="value-two-lable" 
+        for="valueTwo">Second Value:</label><br>
+        <input class="value-two-input" type="number" id="valueTwo">
+   </div>
+   <div class="button-container">
+        <button class="add-button" type="button" onclick="add()">+</button>
+        <button class="sub-button" type="button" onclick="sub()">-</button>
+        <br>
+        <button class="times-button" type="submit" onclick="times()">x</button>
+        <button class="div-button" type="submit"
+        onclick="divide()">/</button>
+        <br>
+        <button class="reset-button" type="button" onclick="reset()">RESET</button>
+   </div> 
+   <div id="answer-container">
+        <p class="answer-para" id="answer"> </p>
+   </div>
+   <script src="/JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html{
+    text-align: center;
+    margin: 5em;
+    background-color: rgb(220, 220, 220);
+}
+.page-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.calculator-container{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-bottom: 6em;
+    padding-top: 2em;
+    max-width: 470px;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(90deg,rgb(220, 220, 220),rgb(109, 109, 109));
+    margin: 25px auto 10px;
+    border-left: none;
+    border-right: none
+}
+.button-container{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width: 470px;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto 10px;
+    background: linear-gradient(90deg,rgb(220, 220, 220), orange);
+    border-left: none;
+    border-right: none;
+}
+#answer-container{
+    border: 3px solid black;
+    border-radius: 20px;
+    max-width: 470px;
+    width: 70%;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(220,220,220), red);
+    border-left: none;
+    border-right: none;
+}
+.answer-para{
+    font-weight: 500;
+    text-align: center;
+}
+.value-one-label{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-right: 1em;
+    font-size: larger;
+}
+.value-two-lable{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-right: 1em;
+    font-size: larger;
+}
+.value-one-input{
+    background-color: rgb(220, 220, 220);
+    width: 4em;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    margin: .5em;
+}
+.value-two-input{
+    background-color: rgb(220, 220, 220);
+    width: 4em;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.add-button{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: xx-large;
+    color: orange;
+    background-color: rgb(220, 220, 220);
+}
+.add-button:hover{
+    background: black;
+    color: white;
+    border: 1.5px solid white;
+    cursor: pointer;
+
+}
+.sub-button{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: xx-large;
+    color: orange;
+    background-color: rgb(220, 220, 220);
+}
+.sub-button:hover{
+    background: black;
+    color: white;
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+.times-button{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: x-large;
+    color: orange;
+    background-color: rgb(220, 220, 220);
+}
+.times-button:hover{
+    background: black;
+    color: white;
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+.div-button{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: x-large;
+    color: orange;
+    background-color: rgb(220, 220, 220);
+}
+.div-button:hover{
+    background: black;
+    color: white;
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+.reset-button{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1.5px solid black;
+}
+.reset-button:hover{
+    cursor: pointer;
+    background-color: red;
+    border: 1.5px solid white;
+    color: white;   
+}
+.answer-para{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: .5em;
+    font-size: larger;
+}
